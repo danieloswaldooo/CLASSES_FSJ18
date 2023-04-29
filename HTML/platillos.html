@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Platillos</title>
+</head>
+<body>
+    <header>
+        <h1>Los platillos mas deliciosos</h1>
+    </header>
+    <nav>
+        <!--ordered list(ol) and unordered list(ul)-->
+        <ul>
+            <!--elements from the list(li)-->
+            <li>
+                <!--links-->
+                <a href="./index.html">Principal</a>
+            </li>
+            <li>
+                <!--links-->
+                <a href="./platillos.html">Platillos</a>
+            </li>
+            <li>
+                <!--links-->
+                <a href="#">Ubicacion</a>
+            </li>
+        </ul>
+    </nav>
+    <section>
+        <div>
+            <!--strong tag is to display text -->
+            <strong>conoce nuestro mejores platillos</strong>
+            <p>
+                <!--youtube video > choose to share vudeo > choose enbed -->
+                <iframe width="320" height="560" src="https://www.youtube.com/embed/6TB0sm_g92k" title="MASSIVE ALASKAN KING CRAB LEGS🦀🦀 #shorts" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </p>
+        </div>
+        <div>
+            <!-- BORDER: MUESTRA EL BORDER DE LA TABLE-->
+            <!-- cellpadding: el espacio del contenido con la celda-->
+            <!-- cellspacing: la forma como queremos que se vea el border(demasiado plano o grueso)-->
+            <!-- colspan: property used to combine cells-->
+            <!-- rowspan: property to combine rows-->
+            <table border="1" cellpadding="5" cellspacing="0">
+                <!--table head-->
+                <thead>
+                    <!--titles-->
+                    <th>Platillos</th>
+                    <th>Description</th>
+                    <th>precio</th>
+                </thead>
+                <!--cuerpo-->
+                <tbody>
+                    <!--assignment of rows-->
+                    <tr>
+                        <!--assignment of columns-->
+                        <td>Pollo en Crema</td>
+                        <td>Pechuga a la planca bañado en crema de hongos</td>
+                        <td>$2.50</td>
+                    </tr>
+                    <tr>
+                        <!--assignment of columns-->
+                        <td>Costilla</td>
+                        <td>Costilla bañado en BBQ</td>
+                        <td>$2.75</td>
+                    </tr>
+                    <tr>
+                        <!--assignment of columns-->
+                        <td>Sopa de Tortilla</td>
+                        <td>Tortillas cortadas en tiras pequeñas previamente fritas. Tomates. Cebollas medianas. Dientes de ajo. Aguacates. Pechugas de pollo previamente cocidas. Ramitos de cilantro al gusto. Crema de queso. Queso rallado al gusto. Litro de consomé o sal al gusto.</td>
+                        <td>$2.75</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>drink options</h3>
+            <table border="1" cellpadding="5" cellspacing="0">
+                <thead>
+                    <th>drinks</th>
+                    <th>brands</th>
+                    <th>Price</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Orange Juice</td>
+                        <td>La Granja</td>
+                        <td>1.25</td>
+                    </tr>
+                    <tr>
+                        <td>Licuado Guineo</td>
+                        <td>Natural</td>
+                        <td rowspan="3">0.75</td>
+                    </tr>
+                    <tr>
+                        <td>Soda</td>
+                        <td>Coca</td>
+                    </tr>
+                    <tr>
+                        <td>Limonada</td>
+                        <td>Natural</td>
+                    </tr>
+                </tbody>
+                <!--pie de pagina <tfoot>-->
+                    <tfoot>
+                        <tr>
+                            <td colspan="3">Resturante Romero</td>
+                        </tr>
+                    </tfoot>
+            </table>
+        </div>
+    </section>
+</body>
+</html>
