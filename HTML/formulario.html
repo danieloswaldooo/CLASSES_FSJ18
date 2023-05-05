@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <style>
+        td#creator {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    
+    <nav>
+        <!--ordered list(ol) and unordered list(ul)-->
+        <ul>
+            <!--elements from the list(li)-->
+            <li>
+                <!--links-->
+                <a href="./index.html">Principal</a>
+            </li>
+            <li>
+                <!--links-->
+                <a href="./platillos.html">Platillos</a>
+            </li>
+            <li>
+                <!--links-->
+                <a href="./ubicacion.html">Ubicacion</a>
+            </li>
+            <li>
+                <a href="./formulario.html">Formulario</a>
+            </li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1>Recopilacion de Datos</h1>
+    </header>
+    <section>
+        <table border="1" cellspacing="0" cellpadding="5">
+            <thead>
+                <caption>Recopilacion de datos</caption>
+                <th colspan="4">Informacion del estudiante</th>
+            </thead>
+        
+            <tbody>
+                <tr>
+                    <td>Nombre</td>
+                    <td colspan="3"><input type="text"></td>
+                </tr>
+
+                <tr>
+                    <td>Apellidos</td>
+                    <td colspan="3"><input type="text"></td>
+                </tr>
+
+                <tr>
+                    <td>Curso</td>
+                    <td colspan="3"><select name="curso" id="curso"><option value="">Curso de programacion</option></select></td>
+                </tr>
+
+                <tr>
+                    <td>Direccion</td>
+                    <td colspan="3"><textarea name="message" id="message" cols="20" rows="5"></textarea></td>
+                </tr>
+
+                <tr>
+                    <td>Telefono</td>
+                    <td><input type="tel"></td>
+                    <td>Telefono Alternativo</td>
+                    <td><input type="tel"></td>
+                </tr>
+
+                <tr>
+                    <td>Genero</td>
+                    <td colspan="3"><input type="radio" name="genero" id="Masculino"><span>Masculino</span>
+                        <input type="radio" name="genero" id="Femenino"><span>Femenino</span></td>
+                </tr>
+
+                <tr>
+                    <td>Correo Electronic</td>
+                    <td colspan="3"><input type="email" name="email" id=""></td>
+                </tr>
+
+                <tr>
+                    <td>Fecha de Ingreso</td>
+                    <td ><input type="date" name="date" id=""></td>
+                    <td>Hora</td>
+                    <td><input type="time" name="time" id="time"></td>
+                </tr>
+
+                <tr>
+                    <td>Foto del estudiante</td>
+                    <td colspan="3"><input type="file" name="fotoDE" id="fotoDE"></td>
+                </tr>
+
+                <th colspan="4">Informacion de Familiar</th>
+
+                <tr>
+                    <td>Nombre</td>
+                    <td colspan="3"><input type="text"></td>
+                </tr>
+
+                <tr>
+                    <td>Apellidos</td>
+                    <td colspan="3"><input type="text"></td>
+                </tr>
+
+                <tr>
+                    <td>Telefono</td>
+                    <td><input type="tel"></td>
+                    <td>Telefono Alternativo</td>
+                    <td><input type="tel"></td>
+                </tr>
+
+                <tr>
+                    <td>Genero</td>
+                    <td colspan="3"><input type="radio" name="Masculino" id="Masculino"><span>Masculino</span>
+                        <input type="radio" name="Femenino" id="Femenino"><span>Femenino</span></td>
+                </tr>
+
+                <tr>
+                    <td>Correo Electronic</td>
+                    <td colspan="3"><input type="email" name="email" id=""></td>
+                </tr>
+
+                <tr>
+                    <td colspan="4"><input type="checkbox" name="" id=""><span>Acepto los terminos y condiciones</span></td>
+                </tr>
+
+                <tr>
+                    <td colspan="4"><button type="submit">Registrar Datos</button></td>
+                </tr>
+
+            </tbody>
+            <tfoot>
+                <td id="creator" colspan="4">2023 Danny, Noe, Daniel y Fernando</td>
+            </tfoot>
+        </table>
+    </section>
+
+    
+</body>
+</html>
